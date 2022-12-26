@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Andika', sans-serif;
+}
+h2{
+    font-size: 1.5rem;
+    font-family: 'Andika', sans-serif;
+}
+
+body{
+    display: grid;
+    background-color:#272a2b ;
+    gap: 1.5rem;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    margin: 7rem;
+    margin-top: 0.5rem;
+    font-family: 'Lora', serif;
+
+}
+.grid-col-span-4{
+    grid-column: span 4;
+}
+.grid-col-span-3{
+    grid-column: span 3;
+}
+img{
+    max-width: 300px;
+}
+
+.nav-items{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    color: white;
+    
+    
+}
+.product-images{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+.info{
+    margin-top: 2rem;
+}
+hr{
+    margin-bottom: 2rem;
+}
